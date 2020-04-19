@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ethics Online</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="style.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+        $(document).ready(function() {
+            $("#yes1").click(function() {
+                $("#no1").fadeOut(1500);
+    
+            });
+        });
+
+    </script>
+     <script>
+        $(document).ready(function() {
+            $("#yes2").click(function() {
+                $("#no2").fadeOut(1500);
+    
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+
+
+
+    <div>
+        <h1>Ethics Online</h1>
+        <ul>
+            <li><a href="Ethics.html">Home</a></li>
+            <li><a href="Singer.html">Singer's Problem</a></li>
+            <li><a href="Trolley.html">Trolly Problem</a></li>
+        </ul>
+
+    </div>
+
+    <div class="parallax">
+        <div class="singerII">
+            <div class="full-width-container">
+                <div class="row" id="img1">
+                    <div class="one-half column value" id="headsingL">
+                        <h2 class="one">Singer's Problem</h2>
+                        <h5 class="two">Thought Exsperiment #1</h5>
+                        <p class="three"></p>
+                    </div>
+                    <div class="one-half column value" id="headsingL">
+                        <img src="images/PeterSingerThumbnail.jpg" class="u-max-full-width">
+
+                    </div>
+                </div>
+
+                <div class="sectionI">
+                    <div class="container">
+                        <div class="row">
+                            <div class="two-half column">
+                                <h4 class="hero-heading"> Imagine that you are walking down a beach... </h4>
+                                <h6>As you look out at the ocean you see a small child drowning. You are certaing that you can save them and get safely back to the shore. Do you have an ethical duty to go out and save the child?</h6>
+                                <div class="row">
+                                    <div class="one-half column">
+                                        <button class="button button-primary" onclick="fadein1();fadein2();" id="yes1">Yes</button></div>
+                                    <div class="one-half column">
+                                        <a class="button button-primary" id="no1">No</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="go1">
+                    <div class="two-half column value">
+                        <h2>Who wouldn't help a drowning child?</h2>
+
+                    </div>
+                </div>
+                 <div class="sectionI" id="go2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="two-half column">
+                                <h4 class="hero-heading"> This time, imagine the same scinareo, except you are wearing exspensive clothes. </h4>
+                                <h6>If you go in to save the child, your clothes will be ruined. You do not have enough time to take them off. Should you still save the child?</h6>
+                                <div class="row">
+                                    <div class="one-half column">
+                                        <button class="button button-primary" onclick="fadein3();fadein4();" id="yes2">Yes</button></div>
+                                    <div class="one-half column">
+                                        <a class="button button-primary" id="no2">No</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="row" id="go3">
+                    <div class="two-half column value">
+                        <h2>Seems obvious, right?</h2>
+
+                    </div>
+                </div>
+                <div class="sectionI" id="go4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="two-half column">
+                                <h4 class="hero-heading"> If you are willing to save this child, then should you be willing to dotnate more to charities? </h4>
+                                <h6>Peter Singer uses this thought exsperiment to argue that we should be doing more to help those in need. There is no fundamental difference between refusing to save a child thats infront of you, and refusing to save a child that halfway across the world. To read more about this thought problem click the button below.</h6>
+                                <a class="button button-primary" href="http://www.bbc.co.uk/ethics/charity/duty_1.shtml">Find out more</a>
+                                <div class="row">
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script>
+            function fadein1() {
+                var element = document.getElementById("go1");
+                element.classList.add("cfadein");
+                
+    
+            }
+
+        </script>
+        
+           <script>
+            function fadein2() {
+                var element = document.getElementById("go2");
+                element.classList.add("cfadein2");
+                
+    
+            }
+
+        </script>
+    
+       <script>
+            function fadein3() {
+                var element = document.getElementById("go3");
+                element.classList.add("cfadein");
+                
+    
+            }
+
+        </script>
+       <script>
+            function fadein4() {
+                var element = document.getElementById("go4");
+                element.classList.add("cfadein2");
+                
+    
+            }
+
+        </script>
+
+</body>
+
+</html>

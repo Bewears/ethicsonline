@@ -1,0 +1,214 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #70587c;
+    padding-bottom: 15px;
+    margin: 0;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p1 {
+    color: blueviolet;
+    size: 100;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding-left: 10px;
+    overflow: hidden;
+    background-color: #000000;
+    text-align: center;
+    border: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+.button {
+    border-radius: 100px;
+}
+
+.section {
+    padding: 8rem 0 7rem;
+    text-align: center;
+}
+
+.section-heading,
+.section-description {
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+.one {
+    margin-bottom: .5rem;
+    color: ;
+}
+
+.two {
+    margin-bottom: .3rem;
+}
+
+.three {
+    opacity: .9;
+    font-weight: 300;
+}
+
+.singerI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/wallpaper6.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+
+}
+
+.trolleyI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/Station.JPG');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 5rem;
+
+}
+
+.u-max-full-width {
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+
+.button.button-warning {
+    background-color: red;
+}
+
+.singerII {
+
+    background-image: url(images/wallpaper6.jpg);
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/wallpaper6.jpg');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 500px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-color: white;
+    color: #000;
+
+}
+
+#img1 {
+    padding-bottom: 20px;
+}
+
+.full-width-container {
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+    margin: 0 auto;
+}
+
+#headsingL {
+    padding-left: 5%;
+   
+}
+#headsingR {
+    padding-right: 5%;
+    
+}
+
+#go1, #go3{
+    opacity: 0;
+    padding-top: 10px;
+}
+
+#go2, #go4{
+    opacity: 0;
+
+}
+
+.cfadein{
+    animation: 3s ease 1s normal forwards 1 fadein;
+}
+
+.cfadein2{
+    animation: 4s ease 5s normal forwards 1 fadein;
+}
+
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.TsectionI {
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-color: white;
+    color: #000;
+    overflow: hidden;
+
+}
+
+.trolleyII {
+
+    background-image: url(images/Station.JPG);
+    padding: 8rem 0 7rem;
+    text-align: center;
+    background-image: url('images/Station.JPG');
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 500px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

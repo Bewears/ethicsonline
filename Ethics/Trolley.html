@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ethics Online</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#yes1").click(function() {
+                $("#no1").fadeOut(1500);
+
+            });
+        });
+
+    </script>
+        <script>
+        $(document).ready(function() {
+            $("#no1").click(function() {
+                $("#yes1").css("background-color","white");
+                 $("#yes1").css("border-color","white");
+                
+
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#yes2").click(function() {
+                $("#no2").fadeOut(1500);
+
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#no2").click(function() {
+                $("#yes2").fadeOut(1500);
+
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+
+
+
+    <div>
+        <h1>Ethics Online</h1>
+        <ul>
+            <li><a href="Ethics.html">Home</a></li>
+            <li><a href="Singer.html">Singer's Problem</a></li>
+            <li><a href="Trolley.html">Trolley Problem</a></li>
+        </ul>
+
+    </div>
+
+    <div class="parallax">
+        <div class="trolleyII">
+            <div class="full-width-container">
+                <div class="row" id="img1">
+                    <div class="one-half column value" id="headsingL">
+                        <h2 class="one">The Trolley Problem</h2>
+                        <h5 class="two">Thought Exsperiment #2</h5>
+                        <p class="three"></p>
+                    </div>
+                    <div class="one-half column value" id="headsingL">
+                        <img src="images/trolly2.jpg" class="u-max-full-width">
+
+                    </div>
+                </div>
+
+                <div class="TsectionI">
+                    <div class="container">
+                        <div class="row">
+                            <div class="two-half column">
+                                <h4 class="hero-heading"> Imagine that you are standing next to a rail...</h4>
+                                <h6>Suddenly you see that an evil villan has tied five people to the rails. You also spot a trolley coming towards them. However you spot that there is a lever that can be used to shift the trolley on do a different rail. But on this rail there is one person tied to the track. Should you pull the lever to save the five people, or should you stay out of it and let them die? </h6>
+                                <div class="row">
+                                    <div class="one-half column">
+                                        <button class="button button-primary" onclick="fadein1();fadein2();" id="yes1">
+                                            Pull it</button></div>
+                                    <div class="one-half column">
+                                        <a class="button button-primary" onclick="fadein1();fadein2();" id="no1">Don't pull it</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" id="go1">
+                    <div class="two-half column value">
+                        <h2>90% of people give that answeard. Its simple math right.</h2>
+
+                    </div>
+                </div>
+                <div class="TsectionI" id="go2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="two-half column">
+                                <h4 class="hero-heading"> This time, imagine there are still five people tied to the track. </h4>
+                                <h6>However this time you are standing on a bridge above the rail. Next to you is a man sitting on the edge of the bridge. You know that if you push him off it will stop the trolley before it hits the people. Will you push him off?</h6>
+                                <div class="row">
+                                    <div class="one-half column">
+                                        <button class="button button-primary" onclick="fadein3();fadein4();" id="yes2">Yes</button></div>
+                                    <div class="one-half column">
+                                        <button class="button button-primary" onclick="fadein3();fadein4();" id="no2">No</button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="go3">
+                    <div class="two-half column value">
+                        <h2>Thats a much harder choice.</h2>
+
+                    </div>
+                </div>
+                <div class="TsectionI" id="go4">
+                    <div class="container">
+                        <div class="row">
+                            <div class="two-half column">
+                                <h4 class="hero-heading"> The seconde choice felt much harder because it activated the emotinol centre of the brain. </h4>
+                                <h6>Although they are effectivley the same problem, the sacraficing the one person feels like it has a bigger morale impact in the seconde scinareo. This is because having to physically push the man activates the emotinol sector of your brain, instead of the logical. This raises the question on weather or not an emotinol or logical approach should be taken to ethical problems. </h6>
+                                <div class="row">
+                                    <a class="button button-primary" href="https://www.psychologytoday.com/intl/blog/hot-thought/201006/ethical-thinking-should-be-rational-and-emotional">Find out more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function fadein1() {
+            var element = document.getElementById("go1");
+            element.classList.add("cfadein");
+
+        }
+
+    </script>
+
+    <script>
+        function fadein2() {
+            var element = document.getElementById("go2");
+            element.classList.add("cfadein2");
+
+
+        }
+
+    </script>
+
+    <script>
+        function fadein3() {
+            var element = document.getElementById("go3");
+            element.classList.add("cfadein");
+
+
+        }
+
+    </script>
+    <script>
+        function fadein4() {
+            var element = document.getElementById("go4");
+            element.classList.add("cfadein2");
+
+
+        }
+
+    </script>
+    <script>
+        function fadein5() {
+            var element = document.getElementById("go5");
+            element.classList.add("cfadein2");
+
+
+        }
+
+    </script>
+</body>
+
+</html>
